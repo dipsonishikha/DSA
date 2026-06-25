@@ -32,7 +32,7 @@
 
 // code bfs approch.
 import java.util.*;
-class Floodfill{
+class Solution{
     public static int[][] floodFill(int[][] image, int sr, int sc, int color){
            int n=image.length;
            int m=image[0].length;
@@ -76,3 +76,6 @@ class Floodfill{
         }
     }
 }
+
+// Timecomplexity-O(n*m);
+// SpaceComplexity-:O(n*m);

@@ -29,5 +29,7 @@ class Lis{
 }
 // Time complexity--O(2^n);
 // Spqce complexity--O(n)--recursive stack;
-// Memoization
+// Memoization(remebering the answer of previously solved questions)
+
+
 
