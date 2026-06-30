@@ -1,4 +1,4 @@
-
+// leetcode 127.
 import java.util.*;
 class wordLadder{
    public static int ladderLength(String beginWord, String endWord, ArrayList<String> wordList) {
@@ -51,3 +51,6 @@ class Pair<K,V>{
         this.value=value;
     }
 }
+// timecomplexity-
+// Spacecomplexity-O(n)--set, O(n)--queue-->O(n)
+// timecomplexity-O(NL^2)
